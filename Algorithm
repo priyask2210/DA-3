@@ -1,0 +1,15 @@
+Declare a struct named Service with members serviceNumber, serviceName, serviceCharge, and serviceDescription.
+Define a function view that takes an array of Service objects, its length, and a service number as input. Iterate through the array to find a matching service number. If found, display the service details; otherwise, print "Record not found."
+Define a function add that takes an array of Service objects, its length, a service number, service name, service charge, and service description as input. Create a new Service object with the given values and add it to the array. Increment the length of the array and print "Record added."
+Define a function modify that takes an array of Service objects, its length, and a service number as input. Iterate through the array to find a matching service number. If found, allow the user to modify the service name, service charge, and service description. Print appropriate messages based on user input.
+Define a function deleteRecord that takes an array of Service objects, its length, and a service number as input. If the service number is valid, display the service details and prompt the user for confirmation to delete. If confirmed, shift the remaining elements in the array and decrement the length. Print appropriate messages based on user input.
+Define a function individual that takes an array of Service objects, its length, and a service number as input. If the service number is valid, display the service details and prompt the user for the number of people. Calculate the total price and payable amount based on the service charge and apply a 10% discount if the number of people is less than or equal to 9. Otherwise, print a message to choose the party option.
+Define a function party that takes an array of Service objects, its length, and a service number as input. If the service number is valid, display the service details and prompt the user for the number of people. Calculate the total price and payable amount based on the service charge and apply a 25% discount if the number of people is 10 or more. Otherwise, print a message to choose the individual option.
+In the main function, declare a constant integer MAX_SERVICES to represent the maximum number of services.
+Create an array of Service objects with size MAX_SERVICES and initialize it with sample service data.
+Initialize a variable length with the number of sample services.
+Enter a do-while loop to display a menu of options to the user.
+Prompt the user to enter a choice (1-7) and read it.
+Use conditional statements to call the corresponding functions based on the user's choice.
+Continue looping until the user chooses to exit (option 7).
+After the loop ends, print "Exiting program" and terminate the program.
