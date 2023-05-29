@@ -254,6 +254,6 @@ do {
         cout << "Invalid choice" << endl;
         break;
     }
-} while (choice < 7);
+} while (choice < 8);
 return 0;
 }
