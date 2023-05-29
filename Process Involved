@@ -1,0 +1,56 @@
+Step 1: Start
+
+Step 2: Display Menu
+
+Step 3: If option 1 is selected.
+Step 3.1: Input service no.
+Step 3.2: If service no. is found, display service name,
+service
+charge and description.
+Else display “Record not found”.
+
+Step 4: If option 2 is selected
+Step 4.1: Input service no. , service name,
+description and service charge.
+Step 4.2: Display “Record added”
+
+Step 5: If option 3 is selected
+Step 5.1: Input service no.
+Step 5.2: If service no. is found:
+display service name
+Step 5.3: Input asking whether he/she wants to modify
+the
+service name
+Step 5.4: If he/she wants to modify:
+input new service name
+Step 5.5: Repeat from step 5.2 for service charge and
+description.
+Step 5.6: Display “Record modified”
+
+Step 6: If option 4 is selected
+Step 6.1: Input service no.
+Step 6.2: Display service details
+Step 6.3: Input asking whether he/she wants to delete the
+record.
+Step 6.4: Display “Record deleted”
+
+Step 7: If option 5 is selected
+Step 7.1: Input service no.
+Step 7.2: Display service details
+Step 7.3: Input asking no. of people
+Step 7.4: If the no. is less than 10:
+Display total price, discount amount and
+payable amount.
+Else display “Choose party option”
+
+Step 8: If option 6 is selected
+Step 8.1: Input service no.
+Step 8.2: Display service details
+Step 8.3: Input asking no. of people
+Step 8.4: If the no. is greater than 10:
+Display total price, discount amount
+and payable amount
+Else display “Choose individual option”
+
+Step 9: If option 7 is selected
+Stop.
