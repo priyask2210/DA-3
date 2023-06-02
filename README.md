@@ -1,4 +1,6 @@
-# DA-3
+> DA-3
+
+```
 #include <iostream>
 #include <string>
 using namespace std;
@@ -257,3 +259,4 @@ do {
 } while (choice < 8);
 return 0;
 }
+```
